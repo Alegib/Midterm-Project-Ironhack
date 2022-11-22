@@ -26,10 +26,12 @@
                 <button class="header-btn-2">See our work</button>
             </div>  
         </div>
-        <div class="header-img">
-            <img class="cards" id="card-1" src="../project-assets/hero-section/card-1.png" alt="Card-1">
-            <img class="cards" id="card-2" src="../project-assets/hero-section/card-2.png" alt="Card-2">
-            <img class="hero" src="../project-assets/hero-section/hero-image.png" alt="Hero">
+        <div>
+            <div class="header-img">
+                <img class="cards" id="card-1" src="../project-assets/hero-section/card-1.png" alt="Card-1">
+                <img class="cards" id="card-2" src="../project-assets/hero-section/card-2.png" alt="Card-2">
+                <img class="hero" src="../project-assets/hero-section/hero-image.png" alt="Hero">
+            </div>
         </div>
     </header>
     
@@ -45,20 +47,20 @@
     <section class="projects-section">
         <h3 >Recent Projects</h3>
         <div class="box-projects">
-            <div class="project-box">
+            <div class="project-box" id="project-box-1">
                 <img src="../project-assets/projects-section/1.jpg" alt="Simplify Img">
                 <h4>Simplify</h4>
                 <p>UI Design & App Development</p>
                 <a href="">Learn more</a>
             </div>
-            <div class="project-box">
+            <div class="project-box" id="project-box-2">
                 <img src="../project-assets/projects-section/2.jpg" alt="Dashcoin Img">
                 <h4>Dashcoin</h4>
                 <p>Web Development</p>
                 <a href="">Learn more</a>
             </div>
-            <div class="project-box">
-                <img src="../project-assets/projects-section/3.jpg" alt="Vectorify Img">
+            <div class="project-box" id="project-box-3">
+                <img src="../project-assets/projects-section/3.png" alt="Vectorify Img">
                 <h4>Vectorify</h4>
                 <p>User Experience Design</p>
                 <a href="">Learn more</a>
@@ -69,49 +71,52 @@
     <!-- SECTION 2 -->
 
     <section class="testimonial-section">
-        <img src="../project-assets/testimonial-section/orbit.png" alt="background img">
-        <div>
-            <h3>Hear What Our Clients Have to Say</h3>
-            <p>"Circle helped us through every stage of our startup. We really enjoyed working with you.</p>
-        </div>
-        <img src="../project-assets/testimonial-section/memoji-1.png" alt="memoji 1">
-        <img src="../project-assets/testimonial-section/memoji-2.png" alt="memoji 2">
-        <img src="../project-assets/testimonial-section/memoji-3.png" alt="memoji 3">
-        <img src="../project-assets/testimonial-section/memoji-4.png" alt="memoji 4">
-        <div>
-            <img src="../project-assets/testimonial-section/profile.png" alt="profile img">
-            <div>
-                <p>Kristin Watson</p>
-                <p>Booking.com</p>
+        
+        <div class="testimonial-icons">
+            <div class="icons-1">
+                <img src="../project-assets/testimonial-section/memoji-1.png" alt="memoji 1">
+                <h3>Hear What Our Clients Have to Say</h3>
+                <img src="../project-assets/testimonial-section/memoji-2.png" alt="memoji 2"> 
             </div>
-            
+            <p class="testimonial-quotes">"Circle helped us through every stage of our startup.<br> We really enjoyed working with you."</p>
+            <div class="icons-2">
+                <img src="../project-assets/testimonial-section/memoji-3.png" alt="memoji 3">
+                <div class="testimonial-profile-box">
+                    <img src="../project-assets/testimonial-section/profile.png" alt="profile img">
+                    <div class="testimonial-text-profile-box">
+                        <p>Kristin Watson</p>
+                        <p>Booking.com</p>
+                    </div>
+                </div>
+                <img src="../project-assets/testimonial-section/memoji-4.png" alt="memoji 4">
+            </div>  
         </div>
     </section>
     <!-- SECTION 3 -->
     <section class="services-section">
         <h3>Our Services</h3>
         <div>
-            <div>
+            <div class="service-boxes" id="service-box-1">
                 <div class="logo">
                     <img src='../project-assets/services-section/icons/1.svg') alt="icon 1">
                 </div>
-                <h5>User Interface Design</h5>
+                <h4>User Interface Design</h4>
                 <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
                 <a href="">Learn more</a>
             </div>
-            <div>
+            <div class="service-boxes">
                 <div class="logo">
                     <img src="../project-assets/services-section/icons/2.svg" alt="icon 2">
                 </div>
-                <h5>User Interface Design</h5>
+                <h4>User Experience Design</h4>
                 <p>Circle always focuses on delivering the best user experience to your customers.</p>
                 <a href="">Learn more</a>
             </div>
-            <div>
+            <div class="service-boxes" id="service-box-3">
                 <div class="logo">
                     <img src="../project-assets/services-section/icons/3.svg" alt="icon 3">
                 </div>
-                <h5>User Interface Design</h5>
+                <h4>Application Development</h4>
                 <p>We develop high quality mobile and web applications using the latest technology stack.</p>
                 <a href="">Learn more</a>
             </div>
@@ -130,17 +135,24 @@
         
     </section>
 
-    <footer>
-        <img src="../project-assets/logos/circle.svg" alt="Circle Logo">
-        <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
-        <ul>
-            <li><a href="">Team</a></li>
-            <li><a href="">Press</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Privacy Policy</a></li>
-        </ul>
+    <footer class="footer">
+        <div id="address-box">
+            <img src="../project-assets/logos/circle.svg" alt="Circle Logo">
+            <address>2972 Westheimer Rd. Santa Ana, <br> Illinois 85486</address>
+        </div>
+        <div class="footer-box">
+            <a href="">Team</a>
+            <a href="">Press</a>
+         </div>
+        <div class="footer-box">
+            <a href="">Services</a>
+            <a href="">Projects</a>
+        </div>
+        
+        <div class="footer-box">
+            <a href="">About Us</a>
+            <a href="">Privacy Policy</a>
+        </div>
     </footer>
     </main>
 	<script src="../js/index.js"></script>
