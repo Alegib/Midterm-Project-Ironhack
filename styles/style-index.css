@@ -72,7 +72,6 @@ p, address {
 .nav-bar button {
     background-color: #072AC8;
     color: white;
-    border-color: white;
     border-style: none;
     padding: 10px;
     max-width: 100px;
@@ -295,6 +294,7 @@ p, address {
     display: flex;
     height: 90%;
 }
+
 .services-section .service-boxes {
     box-shadow: 2px 2px 10px 0 #6B708D;
 }
@@ -349,6 +349,9 @@ p, address {
     padding: 1.5% 4%;
     border-style: none;
 }
+.CTA-section p{
+    color: black;
+}
 .input-email{
     font-family: 'Helvetica', FontAwesome, sans-serif;
 }
@@ -377,6 +380,10 @@ p, address {
     margin-bottom: 45px;
 }
 .footer img{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     width: 100px;
+}
+address {
+    color: #6B708D;
+    font-size: small;
 }

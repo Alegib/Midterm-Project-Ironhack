@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+
+
+.nav-bar {
+    height: auto;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10% 0; 
+    /* position: fixed;  */
+    z-index: 1;
+    margin-top: 1%;
+}
+
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    max-width: 80px;
+    margin-left: -100px;
+}
+
+.nav-bar li {
+    padding-right: 30%;
+    
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: black;  
+}
+
+#nav-home {
+    color: #072AC8;
+}
+
+.nav-bar button {
+    background-color: #072AC8;
+    color: white;
+    border-color: white;
+    border-style: none;
+    padding: 10px;
+    max-width: 100px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    
+}
+input, textarea {
+    width: 100%;
+}
+.box-form {
+    flex-direction: column;
+
+}
+
+.form-section input:first-of-type, textarea{
+    
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #ECF7FF;
+    border-style: none;
+    
+}
+.form-section input::placeholder, textarea::placeholder{
+    padding: 15px;
+    opacity: 50%;
+}
+textarea::placeholder{
+    padding: 15px 0 0 15px;
+}
+.form-section div{
+    display: flex;
+    
+}
+.form-section label {
+    color: #6B708D;
+}
+textarea{
+    resize: none;
+}
+.form-section button {
+    width: 100%;
+    border-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.footer-box {
+    display: grid;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #6B708D;
+}
+#address-box {
+    margin-right: 10%;
+}
+.footer-box a:first-of-type{
+    margin-bottom: 45px;
+}
+.footer img{
+    margin-bottom: 10%;
+    width: 100px;
+}
+
+.footer, .form-section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+address {
+    color: #6B708D;
+    font-size: small;
+}
