@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Circle</title>
+    <title>Circle-Project</title>
     <link rel="stylesheet" href="../styles/style-project-page.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
-  <body>
+  <body onload="loadProjectPage()">
     
   
   <nav class="nav-bar">
@@ -13,23 +14,74 @@
     <ul>
         <li><a id="nav-home" href="../html/index.html">Home</a></li>
         <li><a href="../html/project-page.html">Projects</a></li>
-        <li><a href="">Services</a></li>
+        <li><a href="../html/contact-page.html">Services</a></li>
     </ul>
     <button>Contact Us</button>
 </nav>
+
+<section class="project-section">
+
+    <h1 id="title-proj">Simplify</h1>
+    <div class="project-subtitle-box">
+        <h4 id="subtitle-proj">UI Design & App Development</h4>
+        <h5>Completed on <span id="date-proj">June 22, 2021</span></h5>
+    </div>
+    <img id="image-proj" src="../project-assets/projects-section/1.jpg" alt="Project Image">
+
+    <p id="content-proj">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+    
+
+</section>
+
+<section class="projects-section">
+    <h3 >Other Projects</h3>
+    <div class="box-projects">
+        <div class="project-box" id="project-box-1">
+            <img src="../project-assets/projects-section/4.jpg" alt="Orbit Img">
+            <h4>Orbit</h4>
+            <p>UI Design</p>
+            <a href="./project-page.html?projectId=1">Learn more</a>
+        </div>
+        <div class="project-box" id="project-box-2">
+            <img src="../project-assets/projects-section/5.jpg" alt="Purify Img">
+            <h4>Purify</h4>
+            <p>UI/UX Design</p>
+            <a href="./project-page.html?projectId=2">Learn more</a>
+        </div>
+        <div class="project-box" id="project-box-3">
+            <img src="../project-assets/projects-section/6.jpg" alt="CryptoPie Img">
+            <h4>CryptoPie</h4>
+            <p>App Development</p>
+            <a href="./project-page.html?projectId=3">Learn more</a>
+        </div>
+    </div>
+</section>
+<section class="CTA-section">
+    <h3 class="CTA-elem">Do you have any questions?</h3>
+    <p class="CTA-elem">Let us help you!</p>
+    <div class="email-content">
+        <input type="email" class="input-email" name="emailAddress" placeholder="&#xf0e0;  Enter your email">
+        <button value="click">Subscribe</button>
+    </div>
+</section>
 <footer class="footer">
-    <div>
+    <div id="address-box">
         <img src="../project-assets/logos/circle.svg" alt="Circle Logo">
         <address>2972 Westheimer Rd. Santa Ana, <br> Illinois 85486</address>
-    </div>  
-    <ul>
-        <li><a href="">Team</a></li>
-        <li><a href="">Press</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Privacy Policy</a></li>
-    </ul>
+    </div>
+    <div class="footer-box">
+        <a href="">Team</a>
+        <a href="">Press</a>
+     </div>
+    <div class="footer-box">
+        <a href="">Services</a>
+        <a href="">Projects</a>
+    </div>
+    
+    <div class="footer-box">
+        <a href="">About Us</a>
+        <a href="">Privacy Policy</a>
+    </div>
 </footer>
-
+<script src="../js/index.js"></script>
 </body>
