@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/style-contact-page.css">
   </head>
   <body>
+    <main>
 
     <nav class="nav-bar">
         <img src="../project-assets/logos/circle.svg" alt="Circle Logo">
@@ -17,24 +18,25 @@
         </ul>
         <button>Contact Us</button>
     </nav>
-
+    <h1>Contact Us</h1>
     <section class="form-section">
+        
         <form action="/">
             <label for="name">Full Name*</label><br>
             <input id="full-name" type="text" placeholder="Enter your full name"><br>
             <div >
                 <div class="box-form">
-                    <label for="email">Email</label><br>
+                    <label for="email">Email</label>
                     <input type="email" placeholder="Enter your email address">
                 </div>  
                 <div class="box-form">
-                    <label for="phone">Phone</label><br>
+                    <label for="phone">Phone</label>
                     <input type="text" placeholder="Enter your phone number">
                 </div>
             </div>
             <label for="message">Message</label><br>
             <textarea type="text" id="comment" name="comment" rows="10" placeholder="Write your message here..."></textarea>
-            <button type="submit" id="submit-btn">Submit</button>
+            <button type="submit" id="submit-btn"  action='./html/index.html'>Submit</button>
         </form>
     </section>
 
@@ -50,14 +52,15 @@
         </div>
         <div class="footer-box">
             <a href="">Services</a>
-            <a href="">Projects</a>
+            <a href="./project-page.html?projectId=1">Projects</a>
         </div>
         
         <div class="footer-box">
-            <a href="">About Us</a>
+            <a href="./html/index.html">About Us</a>
             <a href="">Privacy Policy</a>
         </div>
     </footer>
     <script src="../js/index.js"></script>
+</main>
 </body>
 </html>
