@@ -2,18 +2,21 @@
 
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0; 
 }
+
 
 body {
     
     box-sizing: border-box;
     width: 100%;
     font-family: 'Roboto';
+    
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    margin: 5% 0 5% 10%
 }
 
 
@@ -67,20 +70,25 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items:flex-start;
-
     
 }
+textarea{
+    padding-bottom: 10%;
+}
+
 input, textarea {
     width: 100%;
+   
 }
-.box-form {
-    flex-direction: column;
 
+.box-form {
+    width: 40vw;
+    flex-direction: column;
 }
 
 .form-section input:first-of-type, textarea{
     
-    height: 40px;
+    height: 3vw;
     margin-bottom: 2%;
     background-color: #ECF7FF;
     border-style: none;
@@ -89,6 +97,7 @@ input, textarea {
 .form-section input::placeholder, textarea::placeholder{
     padding: 15px;
     opacity: 50%;
+   
 }
 textarea::placeholder{
     padding: 15px 0 0 15px;
@@ -106,6 +115,12 @@ textarea{
 .form-section button {
     width: 100%;
     border-style: none;
+    margin-bottom: 15%;
+    background-color: #072AC8;
+    color: white;
+    height: 3vw;
+    font-size: large;
+    
 }
 
 .footer {
