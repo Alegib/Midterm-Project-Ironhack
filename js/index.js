@@ -13,9 +13,9 @@ function validateForm(){
 if(fullName.value.toLowerCase() === "ironhack"){
     alert('You cannot be Ironhack, because I am Ironhack.')
 }
-else {
-    alert('Thanks for contacting us!');
-  }
+// else{
+//     alert('Thanks for contacting us!');
+//   }
 }
 
 // ----------------------
