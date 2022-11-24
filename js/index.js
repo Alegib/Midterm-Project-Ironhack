@@ -10,19 +10,12 @@ let fullName = document.getElementById('full-name')
 let submitBtn = document.getElementById('submit-btn')
 
 function validateForm(){
-let formInputs = document.querySelectorAll('form input')
-let valid = false;
-
-formInputs.forEach(input => {
-    console.log(input.textContent)
-    if(input.textContent != "") valid = true;
-})
 if(fullName.value.toLowerCase() === "ironhack"){
     alert('You cannot be Ironhack, because I am Ironhack.')
 }
-else if(valid){
-    alert('Thanks for contacting us!');
-  }
+// else{
+//     alert('Thanks for contacting us!');
+//   }
 }
 
 // ----------------------
