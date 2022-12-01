@@ -28,16 +28,16 @@ https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1
 
 ## Sections:
 * **Homepage**:
-    * hero section
-    * client section
-    * projects section
-    * testimonial section
-    * services section
-    * cta section
+    * Hero section
+    * Client section
+    * Projects section
+    * Testimonial section
+    * Services section
+    * Cta section
 * Project Page:
-    * main project section which show the latest project,
-    * other projects section,
-    * cta section.
+    * Main project section
+    * Other-projects section
+    * Cta section
 * Contact Page:
      Form section => 
       full name,
