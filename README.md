@@ -26,7 +26,7 @@ https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1
 * CSS
 * JavaScript
 
-##Sections
+## Sections:
 * **Homepage**:
     * hero section
     * client section
@@ -40,10 +40,10 @@ https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1
     * cta section.
 * Contact Page:
      Form section => 
-      * full name,
-      * email,
-      * telephone,
-      * message.
+      full name,
+      email,
+      telephone,
+      message.
      
  
 ##Demo Link:
