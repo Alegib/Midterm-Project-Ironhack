@@ -34,12 +34,12 @@ https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1
     * testimonial section
     * services section
     * cta section
-* **Project Page:
+* Project Page:
     * main project section which show the latest project,
     * other projects section,
     * cta section.
-* **Contact Page:
-    ** Form section:
+* Contact Page:
+     Form section => 
       * full name,
       * email,
       * telephone,
